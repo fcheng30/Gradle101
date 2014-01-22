@@ -34,7 +34,7 @@ public class Person1 {
 		String value = "";
 		for(int i = 0; i < input.length(); i++){
 		  value += input.charAt((i + 2) % input.length());
-		}
+		}    
 		
 		return value;
 	}
