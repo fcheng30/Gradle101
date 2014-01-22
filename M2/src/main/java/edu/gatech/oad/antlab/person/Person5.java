@@ -31,8 +31,15 @@ public class Person5 {
 	 */
 	private String calc(String input) {
 	  //Person 5 put your implementation here
-	  return null;
+		String string = "";
+		for(int i = 0; i < input.length(); i++){
+		  string += input.charAt((i + 2) % input.length());
+		}    
+		
+		return string;
 	}
+	
+	
 	
 	/**
 	 * Return a string rep of this object
