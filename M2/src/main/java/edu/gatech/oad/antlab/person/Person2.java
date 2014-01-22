@@ -33,7 +33,6 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-		  String input = "gt1234cc";
 		  String result = "";
 		  
 		  Random rand = new Random();
