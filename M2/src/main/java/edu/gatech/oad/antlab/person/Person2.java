@@ -34,7 +34,6 @@ public class Person2 {
 	 */
 	private String calc(String input) {
 		  String result = "";
-		  
 		  Random rand = new Random();
 		  ArrayList<Character> chars = new ArrayList<Character>();
 	      for(char c:input.toCharArray()){
