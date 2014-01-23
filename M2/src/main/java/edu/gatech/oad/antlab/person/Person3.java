@@ -50,6 +50,6 @@ public class Person3 {
 			  }
 			  return output;
 		  }
-		  return 0;
+		  return "";
 	}
 }
